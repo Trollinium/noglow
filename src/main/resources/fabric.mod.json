@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "noglow",
+	"version": "${version}",
+	"name": "noglow",
+	"description": "Stops the glowing effect from being rendered",
+	"authors": [
+		"Trollinium"
+	],
+	"license": "MIT",
+	"icon": "assets/noglow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.trollinium.noglow.NoGlow"
+		]
+	},
+	"mixins": [
+		"noglow.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
